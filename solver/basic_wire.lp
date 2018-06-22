@@ -39,3 +39,4 @@ complete :- finish(X,Y), reachable(X,Y).
 :- not complete.
 
 #minimize { 1, X, Y :  redstone(X,Y) } .
+% vim:ft=prolog
