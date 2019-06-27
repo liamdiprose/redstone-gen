@@ -9,7 +9,7 @@ dim(1..width).
 % Redstone can be anywhere on the board
 {redstone(X, Y) : dim(X), dim(Y)}.
 
-% Adjacent 
+% Adjacent
 adjacent(0,-1 ;; 0,1 ;; -1,0 ;; 1,0).
 
 % The start is Reachable
